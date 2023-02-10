@@ -16,7 +16,7 @@ export default function Experiences() {
     })
 
     return (
-        <div className="flex justify-evenly overflow-hidden mb-20 group">
+        <div className="sm:grid sm:grid-cols-3 gap-10 group sm:w-fit m-auto pb-10 sm:pb-28 pt-5 sm:pt-14 sm:px-16">
             {cards}
         </div>
     )

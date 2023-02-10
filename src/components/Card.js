@@ -6,7 +6,7 @@ export default function Card(props) {
     return (
         <div className="flex flex-col gap-4 z-0 drop-shadow-xl group-hover:opacity-[0.90] hover:!opacity-100 hover:scale-[1.05] duration-500 mx-auto w-2/3 sm:w-fit mb-10 sm:mb-0">
             <div>
-                <img src={`${process.env.PUBLIC_URL + "assets/" + props.coverImg}`} alt="thumbnail"
+                <img src={`${process.env.PUBLIC_URL + "/assets/" + props.coverImg}`} alt="thumbnail"
                     className="w-full sm:w-96 2xl:w-[35rem] mx-auto" />
             </div>
 
